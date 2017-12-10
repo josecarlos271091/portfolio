@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website Jose Carlos Soto</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <img class="title-logo" src="img/logo2.png" alt="Udacity Logo">
+        </div>
+        <div class="col-md-6 text-right">
+          <h1 class="title-super text-thin">Jose Carlos Soto</h1>
+          <h3>Front-end Udacity Student</h3>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<hr>
+      	</div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="img/principal2.jpg" alt="Apple Devices">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6">
+           <img class="img-responsive" src="img/projeto1.jpg" alt="Office" data-toggle="modal" data-target="#portfolio">
+          <h3>Portfolio</h3>
+          <p><a href="http://github.com/josecarlos271091/portfolio">http://github.com/josecarlos271091/portfolio</a></p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive" src="img/projeto2.png" alt="Apple Store Icon" data-toggle="modal" data-target="#mockup">
+          <h3>Mockup to Article</h3>
+          <p><a href="https://github.com/josecarlos271091/mockup-to-article">https://github.com/josecarlos271091/mockup-to-article</a></p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img class="img-responsive" src="img/projeto3.jpg" alt="Beautiful dog" data-toggle="modal" data-target="#cards">
+          <h3>Animal Trading Cards</h3>
+          <p><a href="https://github.com/josecarlos271091/fend-animal-trading-cards">https://github.com/josecarlos271091/fend-animal-trading-cards</a></p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive" src="img/projeto4.jpg" alt="Game" data-toggle="modal" data-target="#domino">
+          <h3>Domino Game</h3>
+          <p><a href="https://github.com/josecarlos271091/JCDOMINO">https://github.com/josecarlos271091/JCDOMINO</a></p>
+        </div>
+      </div>
+      <footer class="text-muted">
+          <p>Copyright&#169 2017 Jose Carlos Soto</p>
+      </footer>
+    </div>
+
+    <!-- Modal projeto Portfolio -->
+    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/projeto1.jpg">
+                    Este e o meu projeto de portfolio, com este projeto aprimorei os meus conhecimentos em HTML e CSS usando o framework Boostrap.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal projeto Mockup to Article -->
+    <div class="modal fade" id="mockup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Mockup to Article</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/projeto2.png">
+                    Este foi o meu primeiro projeto de HTML, no qual iniciei os estudos de desenvolvimento Front-End. 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal projeto Feed Animal Trading Cards -->
+    <div class="modal fade" id="cards" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Feed Animal Trading Cards</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/projeto3.jpg">
+                    Este foi o meu primeiro projeto de CSS, no qual aprendi usar as ferramentas de estilo e criar o meu proprio framework de styles. 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal projeto JCDOMINO -->
+    <div class="modal fade" id="domino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Domino Game</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/projeto4.jpg">
+                    Este foi meu projeto final na materia de programacao orientada a objetos em JAVA, em este projeto desenvolvi um jogo de Domino onde da a possibilidade de escolher entre diferentes taticas de jogo com o "bot" aliado, nele podemos escolher 3 algoritmos de jogo, "Aliado", "Dominador" e Botagorda, a interface grafica do jogo e bem desenvolvida e muito amigavel. 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
